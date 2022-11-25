@@ -1,0 +1,1208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='etc/TAU.Driver.TestRecord.xsl'?>
+<testRun xmlns:TAU="http://www.medical.siemens.com/syngo/TestAutomation" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.medical.siemens.com/syngo/TestAutomation https://xmlschema.healthcare.siemens.com:449/TAU/TAU.Driver.TestRecord_v2.0.xsd" xmlns="http://www.medical.siemens.com/syngo/TestAutomation">
+	<TAU:testRecordHeader>
+		<TAU:testLevel>DR.Unit</TAU:testLevel>
+		<TAU:testOperator>qUser</TAU:testOperator>
+		<TAU:testRunner>
+			<TAU:runnerName>UniversalTestFramework</TAU:runnerName>
+			<TAU:runnerVersion>8.3.2205.2001</TAU:runnerVersion>
+			<TAU:processName>TAU.UniversalTestFramework.Runner</TAU:processName>
+			<TAU:processBitness>64</TAU:processBitness>
+		</TAU:testRunner>
+		<TAU:sut xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.medical.siemens.com/syngo/TestAutomation https://xmlschema.healthcare.siemens.com:449/TAU/TAU.Configuration.SutInformation_v2.0.xsd" xmlns="http://www.medical.siemens.com/syngo/TestAutomation">
+			<manufacturer>Siemens Healthcare GmbH</manufacturer>
+			<product>syngo.DesktopIntegration</product>
+			<deploymentType>Installation</deploymentType>
+			<buildConfiguration>Release</buildConfiguration>
+			<version>4.6.0.0</version>
+			<versionNumber>4.6.0.0</versionNumber>
+			<relatedComponents>
+				<sut>
+					<manufacturer>Siemens Healthcare GmbH</manufacturer>
+					<product>TAU</product>
+					<deploymentType>Installation</deploymentType>
+					<buildConfiguration>Release</buildConfiguration>
+					<version>8.3.2205.2001</version>
+					<versionNumber>8.3.2205.2001</versionNumber>
+					<baseline>
+						<string>TAU.Framework.Main.Upload.MA_20220520.1</string>
+						<build>TAU.Framework.Main.Upload.MA_20220520.1</build>
+					</baseline>
+				</sut>
+			</relatedComponents>
+		</TAU:sut>
+		<TAU:testEnvironment>
+			<TAU:testMachine>
+				<TAU:logicalName />
+				<TAU:description>
+					<TAU:parameter name="Computer Model:">VMware, Inc. VMware7,1</TAU:parameter>
+					<TAU:parameter name="CPU:">Intel(R) Xeon(R) Gold 6248R CPU @ 3.00GHz; Intel(R) Xeon(R) Gold 6248R CPU @ 3.00GHz</TAU:parameter>
+					<TAU:parameter name="No. of CPUs:">2</TAU:parameter>
+					<TAU:parameter name="CPU Frequency (MHz):">2993; 2993</TAU:parameter>
+					<TAU:parameter name="RAM (MB):">8192</TAU:parameter>
+					<TAU:parameter name="Resolution:">2048x1536</TAU:parameter>
+					<TAU:parameter name="Auto Detection:">On</TAU:parameter>
+				</TAU:description>
+			</TAU:testMachine>
+		</TAU:testEnvironment>
+	</TAU:testRecordHeader>
+		<TAU:parameters>
+			<TAU:parameter source="TAU.Driver" name="TestActivity Root:">
+			</TAU:parameter>
+		</TAU:parameters>
+	</TAU:testCall>
+		<TAU:outcome>None</TAU:outcome>
+		<TAU:message source="TAU.Driver.Core.Utf2TestMon+TestEventHandlerLogger">EnvironmentVariable TAU_TESTEVENT_HANDLERS_FORCED_HANDLERS set to ScreenSnapshotHandler.</TAU:message>
+	</TAU:resultItem>
+		<TAU:outcome>None</TAU:outcome>
+		<TAU:message source="TAU.Driver.Core.Utf2TestMon+TestEventHandlerLogger">Activating handler with FriendlyName: 'ScreenSnapshotHandler', prio -10</TAU:message>
+	</TAU:resultItem>
+	<!--Firefox users: Set 'security.fileuri.strict_origin_policy' to 'false' in case of problems with file URIs.-->
+	<TAU:testCase xmlns:TAU="http://www.medical.siemens.com/syngo/TestAutomation" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.medical.siemens.com/syngo/TestAutomation https://xmlschema.healthcare.siemens.com:449/TAU/TAU.Driver.TestRecord_v2.0.xsd" xmlns="http://www.medical.siemens.com/syngo/TestAutomation" xml:base="Falcon.NFR_sTest.TC_NFR_Tests.TestFixtureSetUp/TestCase.xml">
+		<name>syngo.Falcon.NFR_sTest.TC_NFR_Tests.TestFixtureSetUp</name>
+			<purpose>SetUp</purpose>
+			<parameters>
+				<parameter source="TAU.Driver" name="TestActivity Root:">
+					<a href="Falcon.NFR_sTest.TC_NFR_Tests.TestFixtureSetUp/">Falcon.NFR_sTest.TC_NFR_Tests.TestFixtureSetUp</a>
+				</parameter>
+			</parameters>
+		</testCall>
+		<fixture>
+			<assemblyName>syngo.Falcon.NFR_sTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=008145f79b9aec14</assemblyName>
+			<fixtureName>syngo.Falcon.NFR_sTest.TC_NFR_Tests</fixtureName>
+		</fixture>
+		<testStep>
+			<name>TestFixtureSetUp</name>
+				<purpose>SetUp</purpose>
+			</testCall>
+				<outcome>Passed</outcome>
+			</result>
+		</testStep>
+			<outcome>Passed</outcome>
+		</result>
+	</TAU:testCase>
+	<!--Firefox users: Set 'security.fileuri.strict_origin_policy' to 'false' in case of problems with file URIs.-->
+	<TAU:testCase xmlns:TAU="http://www.medical.siemens.com/syngo/TestAutomation" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.medical.siemens.com/syngo/TestAutomation https://xmlschema.healthcare.siemens.com:449/TAU/TAU.Driver.TestRecord_v2.0.xsd" xmlns="http://www.medical.siemens.com/syngo/TestAutomation" xml:base="TC_NFR_Tests.LoadStudyThroughDesktopConnector/TestCase.xml">
+		<name>syngo.Falcon.NFR_sTest.TC_NFR_Tests.LoadStudyThroughDesktopConnector</name>
+			<apartmentState>MTA</apartmentState>
+			<parameters>
+				<parameter source="TAU.Driver" name="TestActivity Root:">
+					<a href="TC_NFR_Tests.LoadStudyThroughDesktopConnector/">TC_NFR_Tests.LoadStudyThroughDesktopConnector</a>
+				</parameter>
+			</parameters>
+		</testCall>
+		<fixture>
+			<assemblyName>syngo.Falcon.NFR_sTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=008145f79b9aec14</assemblyName>
+			<fixtureName>syngo.Falcon.NFR_sTest.TC_NFR_Tests</fixtureName>
+		</fixture>
+		<testStep>
+			<name>SetUp</name>
+				<purpose>SetUp</purpose>
+			</testCall>
+				<outcome>Passed</outcome>
+			</result>
+		</testStep>
+		<testStep>
+			<name>LoadStudyThroughDesktopConnector</name>
+			<testStep>
+				<name>WHEN: Start Desktop Connector Client</name>
+					<outcome>Passed</outcome>
+				</result>
+			</testStep>
+			<testStep>
+				<name>THEN: Wait for DesktopConnector to start.</name>
+					<outcome>Passed</outcome>
+				</result>
+			</testStep>
+			<testStep>
+				<name>GIVEN: Application is getting prepared for loading the study</name>
+					<outcome>Passed</outcome>
+				</result>
+			</testStep>
+			<testStep>
+				<name>WHEN: Study is loaded through DC</name>
+					<outcome>None</outcome>
+				</resultItem>
+				<testStep>
+					<name>WHEN: Open/Close of study from desktop connector request</name>
+						<outcome>Passed</outcome>
+					</result>
+				</testStep>
+					<outcome>None</outcome>
+				</resultItem>
+					<outcome>None</outcome>
+				</resultItem>
+					<outcome>None</outcome>
+				</resultItem>
+					<outcome>None</outcome>
+				</resultItem>
+					<outcome>None</outcome>
+					<message>area which need to change to start non-black segment detection (green rectangle) and non-black segment areas (red rectangles)</message>
+				</resultItem>
+					<outcome>None</outcome>
+					<message source="OutputFile">
+						<a href="TC_NFR_Tests.LoadStudyThroughDesktopConnector/out/saved_ui_areas.png">TC_NFR_Tests.LoadStudyThroughDesktopConnector\out\saved_ui_areas.png</a>
+					</message>
+				</resultItem>
+					<outcome>None</outcome>
+				</resultItem>
+					<outcome>Passed</outcome>
+				</result>
+			</testStep>
+			<testStep>
+					<outcome>None</outcome>
+				</resultItem>
+					<outcome>None</outcome>
+				</resultItem>
+					<outcome>None</outcome>
+				</resultItem>
+					<outcome>None</outcome>
+				</resultItem>
+					<outcome>None</outcome>
+				</resultItem>
+					<outcome>None</outcome>
+				</resultItem>
+					<outcome>Passed</outcome>
+				</result>
+			</testStep>
+				<outcome>Passed</outcome>
+			</result>
+		</testStep>
+		<testStep>
+			<name>TearDown</name>
+				<purpose>TearDown</purpose>
+			</testCall>
+				<outcome>None</outcome>
+				<message source="OutputFile">
+				</message>
+			</resultItem>
+				<outcome>Passed</outcome>
+			</result>
+		</testStep>
+			<outcome>Passed</outcome>
+		</result>
+	</TAU:testCase>
+	<!--Firefox users: Set 'security.fileuri.strict_origin_policy' to 'false' in case of problems with file URIs.-->
+	<TAU:testCase xmlns:TAU="http://www.medical.siemens.com/syngo/TestAutomation" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.medical.siemens.com/syngo/TestAutomation https://xmlschema.healthcare.siemens.com:449/TAU/TAU.Driver.TestRecord_v2.0.xsd" xmlns="http://www.medical.siemens.com/syngo/TestAutomation" xml:base="Falcon.NFR_sTest.TC_NFR_Tests.PatientTabCount/TestCase.xml">
+		<name>syngo.Falcon.NFR_sTest.TC_NFR_Tests.PatientTabCount</name>
+			<apartmentState>MTA</apartmentState>
+			<parameters>
+				<parameter source="TAU.Driver" name="TestActivity Root:">
+					<a href="Falcon.NFR_sTest.TC_NFR_Tests.PatientTabCount/">Falcon.NFR_sTest.TC_NFR_Tests.PatientTabCount</a>
+				</parameter>
+			</parameters>
+		</testCall>
+		<fixture>
+			<assemblyName>syngo.Falcon.NFR_sTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=008145f79b9aec14</assemblyName>
+			<fixtureName>syngo.Falcon.NFR_sTest.TC_NFR_Tests</fixtureName>
+		</fixture>
+		<testStep>
+			<name>SetUp</name>
+				<purpose>SetUp</purpose>
+			</testCall>
+				<outcome>Passed</outcome>
+			</result>
+		</testStep>
+		<testStep>
+			<name>PatientTabCount</name>
+			<testStep>
+				<name>THEN: Verify the patient tab(s) count : 1 is present in monitor 1.</name>
+					<outcome>Passed</outcome>
+				</result>
+			</testStep>
+				<outcome>Passed</outcome>
+			</result>
+		</testStep>
+		<testStep>
+			<name>TearDown</name>
+				<purpose>TearDown</purpose>
+			</testCall>
+				<outcome>None</outcome>
+				<message source="OutputFile">
+				</message>
+			</resultItem>
+				<outcome>Passed</outcome>
+			</result>
+		</testStep>
+			<outcome>Passed</outcome>
+		</result>
+	</TAU:testCase>
+	<!--Firefox users: Set 'security.fileuri.strict_origin_policy' to 'false' in case of problems with file URIs.-->
+			<apartmentState>MTA</apartmentState>
+			<parameters>
+				<parameter source="TAU.Driver" name="TestActivity Root:">
+				</parameter>
+			</parameters>
+		</testCall>
+		<fixture>
+			<assemblyName>syngo.Falcon.NFR_sTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=008145f79b9aec14</assemblyName>
+			<fixtureName>syngo.Falcon.NFR_sTest.TC_NFR_Tests</fixtureName>
+		</fixture>
+		<testStep>
+			<name>SetUp</name>
+				<purpose>SetUp</purpose>
+			</testCall>
+				<outcome>Passed</outcome>
+			</result>
+		</testStep>
+		<testStep>
+				<outcome>Passed</outcome>
+			</result>
+		</testStep>
+		<testStep>
+			<name>TearDown</name>
+				<purpose>TearDown</purpose>
+			</testCall>
+				<outcome>None</outcome>
+				<message source="OutputFile">
+				</message>
+			</resultItem>
+				<outcome>Passed</outcome>
+			</result>
+		</testStep>
+			<outcome>Passed</outcome>
+		</result>
+	</TAU:testCase>
+	<!--Firefox users: Set 'security.fileuri.strict_origin_policy' to 'false' in case of problems with file URIs.-->
+			<apartmentState>MTA</apartmentState>
+			<parameters>
+				<parameter source="TAU.Driver" name="TestActivity Root:">
+				</parameter>
+			</parameters>
+		</testCall>
+		<fixture>
+			<assemblyName>syngo.Falcon.NFR_sTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=008145f79b9aec14</assemblyName>
+			<fixtureName>syngo.Falcon.NFR_sTest.TC_NFR_Tests</fixtureName>
+		</fixture>
+		<testStep>
+			<name>SetUp</name>
+				<purpose>SetUp</purpose>
+			</testCall>
+				<outcome>Passed</outcome>
+			</result>
+		</testStep>
+		<testStep>
+			<testStep>
+					<outcome>None</outcome>
+					</message>
+				</resultItem>
+					<outcome>None</outcome>
+					</message>
+				</resultItem>
+					<outcome>None</outcome>
+					</message>
+				</resultItem>
+					<outcome>None</outcome>
+					</message>
+				</resultItem>
+					<outcome>None</outcome>
+					</message>
+				</resultItem>
+					<outcome>Passed</outcome>
+				</result>
+			</testStep>
+				<outcome>Passed</outcome>
+			</result>
+		</testStep>
+		<testStep>
+			<name>TearDown</name>
+				<purpose>TearDown</purpose>
+			</testCall>
+				<outcome>None</outcome>
+				<message source="OutputFile">
+				</message>
+			</resultItem>
+				<outcome>Passed</outcome>
+			</result>
+		</testStep>
+			<outcome>Passed</outcome>
+		</result>
+	</TAU:testCase>
+	<!--Firefox users: Set 'security.fileuri.strict_origin_policy' to 'false' in case of problems with file URIs.-->
+			<apartmentState>MTA</apartmentState>
+			<parameters>
+				<parameter source="TAU.Driver" name="TestActivity Root:">
+				</parameter>
+			</parameters>
+		</testCall>
+		<fixture>
+			<assemblyName>syngo.Falcon.NFR_sTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=008145f79b9aec14</assemblyName>
+			<fixtureName>syngo.Falcon.NFR_sTest.TC_NFR_Tests</fixtureName>
+		</fixture>
+		<testStep>
+			<name>SetUp</name>
+				<purpose>SetUp</purpose>
+			</testCall>
+				<outcome>Passed</outcome>
+			</result>
+		</testStep>
+		<testStep>
+			<testStep>
+					<outcome>None</outcome>
+					</message>
+				</resultItem>
+					<outcome>None</outcome>
+					</message>
+				</resultItem>
+					<outcome>None</outcome>
+					</message>
+				</resultItem>
+					<outcome>None</outcome>
+					</message>
+				</resultItem>
+					<outcome>Passed</outcome>
+				</result>
+			</testStep>
+				<outcome>Passed</outcome>
+			</result>
+		</testStep>
+		<testStep>
+			<name>TearDown</name>
+				<purpose>TearDown</purpose>
+			</testCall>
+				<outcome>None</outcome>
+				<message source="OutputFile">
+				</message>
+			</resultItem>
+				<outcome>Passed</outcome>
+			</result>
+		</testStep>
+			<outcome>Passed</outcome>
+		</result>
+	</TAU:testCase>
+	<!--Firefox users: Set 'security.fileuri.strict_origin_policy' to 'false' in case of problems with file URIs.-->
+			<apartmentState>MTA</apartmentState>
+			<parameters>
+				<parameter source="TAU.Driver" name="TestActivity Root:">
+				</parameter>
+			</parameters>
+		</testCall>
+		<fixture>
+			<assemblyName>syngo.Falcon.NFR_sTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=008145f79b9aec14</assemblyName>
+			<fixtureName>syngo.Falcon.NFR_sTest.TC_NFR_Tests</fixtureName>
+		</fixture>
+		<testStep>
+			<name>SetUp</name>
+				<purpose>SetUp</purpose>
+			</testCall>
+				<outcome>Passed</outcome>
+			</result>
+		</testStep>
+		<testStep>
+				<outcome>None</outcome>
+				<message source="OutputDirectory">
+				</message>
+			</resultItem>
+				<outcome>None</outcome>
+				<message source="OutputDirectory">
+				</message>
+			</resultItem>
+				<outcome>None</outcome>
+				<message source="OutputDirectory">
+				</message>
+			</resultItem>
+				<outcome>None</outcome>
+				<message source="OutputDirectory">
+				</message>
+			</resultItem>
+			<testStep>
+				<testStep>
+						<outcome>Passed</outcome>
+					</result>
+				</testStep>
+				<testStep>
+						<outcome>Passed</outcome>
+					</result>
+				</testStep>
+				<testStep>
+						<outcome>Passed</outcome>
+					</result>
+				</testStep>
+					<outcome>Passed</outcome>
+				</result>
+			</testStep>
+			<testStep>
+					<outcome>Passed</outcome>
+				</result>
+			</testStep>
+				<outcome>Passed</outcome>
+			</result>
+		</testStep>
+		<testStep>
+			<name>TearDown</name>
+				<purpose>TearDown</purpose>
+			</testCall>
+				<outcome>None</outcome>
+				<message source="OutputFile">
+				</message>
+			</resultItem>
+				<outcome>Passed</outcome>
+			</result>
+		</testStep>
+			<outcome>Passed</outcome>
+		</result>
+	</TAU:testCase>
+	<!--Firefox users: Set 'security.fileuri.strict_origin_policy' to 'false' in case of problems with file URIs.-->
+			<apartmentState>MTA</apartmentState>
+			<parameters>
+				<parameter source="TAU.Driver" name="TestActivity Root:">
+				</parameter>
+			</parameters>
+		</testCall>
+		<fixture>
+			<assemblyName>syngo.Falcon.NFR_sTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=008145f79b9aec14</assemblyName>
+			<fixtureName>syngo.Falcon.NFR_sTest.TC_NFR_Tests</fixtureName>
+		</fixture>
+		<testStep>
+			<name>SetUp</name>
+				<purpose>SetUp</purpose>
+			</testCall>
+				<outcome>Passed</outcome>
+			</result>
+		</testStep>
+		<testStep>
+			<testStep>
+				<testStep>
+						<outcome>Passed</outcome>
+					</result>
+				</testStep>
+				<testStep>
+						<outcome>Passed</outcome>
+					</result>
+				</testStep>
+				<testStep>
+						<outcome>Passed</outcome>
+					</result>
+				</testStep>
+					<outcome>Passed</outcome>
+				</result>
+			</testStep>
+			<testStep>
+					<outcome>Passed</outcome>
+				</result>
+			</testStep>
+				<outcome>Passed</outcome>
+			</result>
+		</testStep>
+		<testStep>
+			<name>TearDown</name>
+				<purpose>TearDown</purpose>
+			</testCall>
+				<outcome>None</outcome>
+				<message source="OutputFile">
+				</message>
+			</resultItem>
+				<outcome>Passed</outcome>
+			</result>
+		</testStep>
+			<outcome>Passed</outcome>
+		</result>
+	</TAU:testCase>
+	<!--Firefox users: Set 'security.fileuri.strict_origin_policy' to 'false' in case of problems with file URIs.-->
+			<apartmentState>MTA</apartmentState>
+			<parameters>
+				<parameter source="TAU.Driver" name="TestActivity Root:">
+				</parameter>
+			</parameters>
+		</testCall>
+		<fixture>
+			<assemblyName>syngo.Falcon.NFR_sTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=008145f79b9aec14</assemblyName>
+			<fixtureName>syngo.Falcon.NFR_sTest.TC_NFR_Tests</fixtureName>
+		</fixture>
+		<testStep>
+			<name>SetUp</name>
+				<purpose>SetUp</purpose>
+			</testCall>
+				<outcome>Passed</outcome>
+			</result>
+		</testStep>
+		<testStep>
+			<testStep>
+				<testStep>
+						<outcome>Passed</outcome>
+					</result>
+				</testStep>
+				<testStep>
+						<outcome>Passed</outcome>
+					</result>
+				</testStep>
+				<testStep>
+						<outcome>Passed</outcome>
+					</result>
+				</testStep>
+					<outcome>Passed</outcome>
+				</result>
+			</testStep>
+			<testStep>
+					<outcome>Passed</outcome>
+				</result>
+			</testStep>
+				<outcome>Passed</outcome>
+			</result>
+		</testStep>
+		<testStep>
+			<name>TearDown</name>
+				<purpose>TearDown</purpose>
+			</testCall>
+				<outcome>None</outcome>
+				<message source="OutputFile">
+				</message>
+			</resultItem>
+				<outcome>Passed</outcome>
+			</result>
+		</testStep>
+			<outcome>Passed</outcome>
+		</result>
+	</TAU:testCase>
+	<!--Firefox users: Set 'security.fileuri.strict_origin_policy' to 'false' in case of problems with file URIs.-->
+			<apartmentState>MTA</apartmentState>
+			<parameters>
+				<parameter source="TAU.Driver" name="TestActivity Root:">
+				</parameter>
+			</parameters>
+		</testCall>
+		<fixture>
+			<assemblyName>syngo.Falcon.NFR_sTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=008145f79b9aec14</assemblyName>
+			<fixtureName>syngo.Falcon.NFR_sTest.TC_NFR_Tests</fixtureName>
+		</fixture>
+		<testStep>
+			<name>SetUp</name>
+				<purpose>SetUp</purpose>
+			</testCall>
+				<outcome>Passed</outcome>
+			</result>
+		</testStep>
+		<testStep>
+			<testStep>
+					<outcome>Passed</outcome>
+				</result>
+			</testStep>
+			<testStep>
+				<testStep>
+						<outcome>Passed</outcome>
+					</result>
+				</testStep>
+					<outcome>Passed</outcome>
+				</result>
+			</testStep>
+				<outcome>None</outcome>
+				<message source="OutputDirectory">
+				</message>
+			</resultItem>
+				<outcome>None</outcome>
+				<message source="OutputDirectory">
+				</message>
+			</resultItem>
+				<outcome>None</outcome>
+				<message source="OutputDirectory">
+				</message>
+			</resultItem>
+				<outcome>None</outcome>
+				<message source="OutputDirectory">
+				</message>
+			</resultItem>
+			<testStep>
+				<testStep>
+						<outcome>Passed</outcome>
+					</result>
+				</testStep>
+					<outcome>Passed</outcome>
+				</result>
+			</testStep>
+				<outcome>Passed</outcome>
+			</result>
+		</testStep>
+		<testStep>
+			<name>TearDown</name>
+				<purpose>TearDown</purpose>
+			</testCall>
+				<outcome>None</outcome>
+				<message source="OutputFile">
+				</message>
+			</resultItem>
+				<outcome>Passed</outcome>
+			</result>
+		</testStep>
+			<outcome>Passed</outcome>
+		</result>
+	</TAU:testCase>
+	<!--Firefox users: Set 'security.fileuri.strict_origin_policy' to 'false' in case of problems with file URIs.-->
+			<apartmentState>MTA</apartmentState>
+			<parameters>
+				<parameter source="TAU.Driver" name="TestActivity Root:">
+				</parameter>
+			</parameters>
+		</testCall>
+		<fixture>
+			<assemblyName>syngo.Falcon.NFR_sTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=008145f79b9aec14</assemblyName>
+			<fixtureName>syngo.Falcon.NFR_sTest.TC_NFR_Tests</fixtureName>
+		</fixture>
+		<testStep>
+			<name>SetUp</name>
+				<purpose>SetUp</purpose>
+			</testCall>
+				<outcome>Passed</outcome>
+			</result>
+		</testStep>
+		<testStep>
+			<testStep>
+				<testStep>
+						<outcome>Passed</outcome>
+					</result>
+				</testStep>
+				<testStep>
+						<outcome>Passed</outcome>
+					</result>
+				</testStep>
+				<testStep>
+						<outcome>Passed</outcome>
+					</result>
+				</testStep>
+					<outcome>Passed</outcome>
+				</result>
+			</testStep>
+			<testStep>
+					<outcome>Passed</outcome>
+				</result>
+			</testStep>
+				<outcome>Passed</outcome>
+			</result>
+		</testStep>
+		<testStep>
+			<name>TearDown</name>
+				<purpose>TearDown</purpose>
+			</testCall>
+				<outcome>None</outcome>
+				<message source="OutputFile">
+				</message>
+			</resultItem>
+				<outcome>Passed</outcome>
+			</result>
+		</testStep>
+			<outcome>Passed</outcome>
+		</result>
+	</TAU:testCase>
+	<!--Firefox users: Set 'security.fileuri.strict_origin_policy' to 'false' in case of problems with file URIs.-->
+			<apartmentState>MTA</apartmentState>
+			<parameters>
+				<parameter source="TAU.Driver" name="TestActivity Root:">
+				</parameter>
+			</parameters>
+		</testCall>
+		<fixture>
+			<assemblyName>syngo.Falcon.NFR_sTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=008145f79b9aec14</assemblyName>
+			<fixtureName>syngo.Falcon.NFR_sTest.TC_NFR_Tests</fixtureName>
+		</fixture>
+		<testStep>
+			<name>SetUp</name>
+				<purpose>SetUp</purpose>
+			</testCall>
+				<outcome>Passed</outcome>
+			</result>
+		</testStep>
+		<testStep>
+			<testStep>
+				<name>WHEN: Select PatientJacket tool in fixed ToolBar</name>
+					<outcome>Passed</outcome>
+				</result>
+			</testStep>
+				<outcome>Passed</outcome>
+			</result>
+		</testStep>
+		<testStep>
+			<name>TearDown</name>
+				<purpose>TearDown</purpose>
+			</testCall>
+				<outcome>None</outcome>
+				<message source="OutputFile">
+				</message>
+			</resultItem>
+				<outcome>Passed</outcome>
+			</result>
+		</testStep>
+			<outcome>Passed</outcome>
+		</result>
+	</TAU:testCase>
+	<!--Firefox users: Set 'security.fileuri.strict_origin_policy' to 'false' in case of problems with file URIs.-->
+			<apartmentState>MTA</apartmentState>
+			<parameters>
+				<parameter source="TAU.Driver" name="TestActivity Root:">
+				</parameter>
+			</parameters>
+		</testCall>
+		<fixture>
+			<assemblyName>syngo.Falcon.NFR_sTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=008145f79b9aec14</assemblyName>
+			<fixtureName>syngo.Falcon.NFR_sTest.TC_NFR_Tests</fixtureName>
+		</fixture>
+		<testStep>
+			<name>SetUp</name>
+				<purpose>SetUp</purpose>
+			</testCall>
+				<outcome>Passed</outcome>
+			</result>
+		</testStep>
+		<testStep>
+			<testStep>
+					<outcome>Passed</outcome>
+				</result>
+			</testStep>
+			<testStep>
+					<outcome>Passed</outcome>
+				</result>
+			</testStep>
+			<testStep>
+					<outcome>None</outcome>
+					</message>
+				</resultItem>
+					<outcome>None</outcome>
+					</message>
+				</resultItem>
+					<outcome>None</outcome>
+					</message>
+				</resultItem>
+					<outcome>None</outcome>
+					</message>
+				</resultItem>
+					<outcome>Passed</outcome>
+				</result>
+			</testStep>
+				<outcome>Passed</outcome>
+			</result>
+		</testStep>
+		<testStep>
+			<name>TearDown</name>
+				<purpose>TearDown</purpose>
+			</testCall>
+				<outcome>None</outcome>
+				<message source="OutputFile">
+				</message>
+			</resultItem>
+				<outcome>Passed</outcome>
+			</result>
+		</testStep>
+			<outcome>Passed</outcome>
+		</result>
+	</TAU:testCase>
+	<!--Firefox users: Set 'security.fileuri.strict_origin_policy' to 'false' in case of problems with file URIs.-->
+	<TAU:testCase xmlns:TAU="http://www.medical.siemens.com/syngo/TestAutomation" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.medical.siemens.com/syngo/TestAutomation https://xmlschema.healthcare.siemens.com:449/TAU/TAU.Driver.TestRecord_v2.0.xsd" xmlns="http://www.medical.siemens.com/syngo/TestAutomation" xml:base="syngo.Falcon.NFR_sTest.TC_NFR_Tests.ClosePJ/TestCase.xml">
+		<name>syngo.Falcon.NFR_sTest.TC_NFR_Tests.ClosePJ</name>
+			<apartmentState>MTA</apartmentState>
+			<parameters>
+				<parameter source="TAU.Driver" name="TestActivity Root:">
+					<a href="syngo.Falcon.NFR_sTest.TC_NFR_Tests.ClosePJ/">syngo.Falcon.NFR_sTest.TC_NFR_Tests.ClosePJ</a>
+				</parameter>
+			</parameters>
+		</testCall>
+		<fixture>
+			<assemblyName>syngo.Falcon.NFR_sTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=008145f79b9aec14</assemblyName>
+			<fixtureName>syngo.Falcon.NFR_sTest.TC_NFR_Tests</fixtureName>
+		</fixture>
+		<testStep>
+			<name>SetUp</name>
+				<purpose>SetUp</purpose>
+			</testCall>
+				<outcome>Passed</outcome>
+			</result>
+		</testStep>
+		<testStep>
+			<name>ClosePJ</name>
+			<testStep>
+				<name>WHEN: Close the Patient Jacket</name>
+					<outcome>Passed</outcome>
+				</result>
+			</testStep>
+				<outcome>Passed</outcome>
+			</result>
+		</testStep>
+		<testStep>
+			<name>TearDown</name>
+				<purpose>TearDown</purpose>
+			</testCall>
+				<outcome>None</outcome>
+				<message source="OutputFile">
+				</message>
+			</resultItem>
+				<outcome>Passed</outcome>
+			</result>
+		</testStep>
+			<outcome>Passed</outcome>
+		</result>
+	</TAU:testCase>
+	<!--Firefox users: Set 'security.fileuri.strict_origin_policy' to 'false' in case of problems with file URIs.-->
+			<apartmentState>MTA</apartmentState>
+			<parameters>
+				<parameter source="TAU.Driver" name="TestActivity Root:">
+				</parameter>
+			</parameters>
+		</testCall>
+		<fixture>
+			<assemblyName>syngo.Falcon.NFR_sTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=008145f79b9aec14</assemblyName>
+			<fixtureName>syngo.Falcon.NFR_sTest.TC_NFR_Tests</fixtureName>
+		</fixture>
+		<testStep>
+			<name>SetUp</name>
+				<purpose>SetUp</purpose>
+			</testCall>
+				<outcome>Passed</outcome>
+			</result>
+		</testStep>
+		<testStep>
+				<outcome>Passed</outcome>
+			</result>
+		</testStep>
+		<testStep>
+			<name>TearDown</name>
+				<purpose>TearDown</purpose>
+			</testCall>
+				<outcome>None</outcome>
+				<message source="OutputFile">
+				</message>
+			</resultItem>
+				<outcome>Passed</outcome>
+			</result>
+		</testStep>
+			<outcome>Passed</outcome>
+		</result>
+	</TAU:testCase>
+	<!--Firefox users: Set 'security.fileuri.strict_origin_policy' to 'false' in case of problems with file URIs.-->
+			<apartmentState>MTA</apartmentState>
+			<parameters>
+				<parameter source="TAU.Driver" name="TestActivity Root:">
+				</parameter>
+			</parameters>
+		</testCall>
+		<fixture>
+			<assemblyName>syngo.Falcon.NFR_sTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=008145f79b9aec14</assemblyName>
+			<fixtureName>syngo.Falcon.NFR_sTest.TC_NFR_Tests</fixtureName>
+		</fixture>
+		<testStep>
+			<name>SetUp</name>
+				<purpose>SetUp</purpose>
+			</testCall>
+				<outcome>Passed</outcome>
+			</result>
+		</testStep>
+		<testStep>
+			<testStep>
+					<outcome>None</outcome>
+					</message>
+				</resultItem>
+					<outcome>None</outcome>
+					</message>
+				</resultItem>
+					<outcome>None</outcome>
+					</message>
+				</resultItem>
+					<outcome>None</outcome>
+					</message>
+				</resultItem>
+					<outcome>Passed</outcome>
+				</result>
+			</testStep>
+				<outcome>Passed</outcome>
+			</result>
+		</testStep>
+		<testStep>
+			<name>TearDown</name>
+				<purpose>TearDown</purpose>
+			</testCall>
+				<outcome>None</outcome>
+				<message source="OutputFile">
+				</message>
+			</resultItem>
+				<outcome>Passed</outcome>
+			</result>
+		</testStep>
+			<outcome>Passed</outcome>
+		</result>
+	</TAU:testCase>
+	<!--Firefox users: Set 'security.fileuri.strict_origin_policy' to 'false' in case of problems with file URIs.-->
+			<apartmentState>MTA</apartmentState>
+			<parameters>
+				<parameter source="TAU.Driver" name="TestActivity Root:">
+				</parameter>
+			</parameters>
+		</testCall>
+		<fixture>
+			<assemblyName>syngo.Falcon.NFR_sTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=008145f79b9aec14</assemblyName>
+			<fixtureName>syngo.Falcon.NFR_sTest.TC_NFR_Tests</fixtureName>
+		</fixture>
+		<testStep>
+			<name>SetUp</name>
+				<purpose>SetUp</purpose>
+			</testCall>
+				<outcome>Passed</outcome>
+			</result>
+		</testStep>
+		<testStep>
+				<outcome>None</outcome>
+				<message source="OutputDirectory">
+				</message>
+			</resultItem>
+				<outcome>None</outcome>
+				<message source="OutputDirectory">
+				</message>
+			</resultItem>
+				<outcome>None</outcome>
+				<message source="OutputDirectory">
+				</message>
+			</resultItem>
+				<outcome>None</outcome>
+				<message source="OutputDirectory">
+				</message>
+			</resultItem>
+			<testStep>
+				<testStep>
+						<outcome>Passed</outcome>
+					</result>
+				</testStep>
+				<testStep>
+						<outcome>Passed</outcome>
+					</result>
+				</testStep>
+				<testStep>
+						<outcome>Passed</outcome>
+					</result>
+				</testStep>
+					<outcome>Passed</outcome>
+				</result>
+			</testStep>
+			<testStep>
+					<outcome>Passed</outcome>
+				</result>
+			</testStep>
+				<outcome>Passed</outcome>
+			</result>
+		</testStep>
+		<testStep>
+			<name>TearDown</name>
+				<purpose>TearDown</purpose>
+			</testCall>
+				<outcome>None</outcome>
+				<message source="OutputFile">
+				</message>
+			</resultItem>
+				<outcome>Passed</outcome>
+			</result>
+		</testStep>
+			<outcome>Passed</outcome>
+		</result>
+	</TAU:testCase>
+	<!--Firefox users: Set 'security.fileuri.strict_origin_policy' to 'false' in case of problems with file URIs.-->
+			<apartmentState>MTA</apartmentState>
+			<parameters>
+				<parameter source="TAU.Driver" name="TestActivity Root:">
+				</parameter>
+			</parameters>
+		</testCall>
+		<fixture>
+			<assemblyName>syngo.Falcon.NFR_sTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=008145f79b9aec14</assemblyName>
+			<fixtureName>syngo.Falcon.NFR_sTest.TC_NFR_Tests</fixtureName>
+		</fixture>
+		<testStep>
+			<name>SetUp</name>
+				<purpose>SetUp</purpose>
+			</testCall>
+				<outcome>Passed</outcome>
+			</result>
+		</testStep>
+		<testStep>
+				<outcome>Passed</outcome>
+			</result>
+		</testStep>
+		<testStep>
+			<name>TearDown</name>
+				<purpose>TearDown</purpose>
+			</testCall>
+				<outcome>None</outcome>
+				<message source="OutputFile">
+				</message>
+			</resultItem>
+				<outcome>Passed</outcome>
+			</result>
+		</testStep>
+			<outcome>Passed</outcome>
+		</result>
+	</TAU:testCase>
+	<!--Firefox users: Set 'security.fileuri.strict_origin_policy' to 'false' in case of problems with file URIs.-->
+	<TAU:testCase xmlns:TAU="http://www.medical.siemens.com/syngo/TestAutomation" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.medical.siemens.com/syngo/TestAutomation https://xmlschema.healthcare.siemens.com:449/TAU/TAU.Driver.TestRecord_v2.0.xsd" xmlns="http://www.medical.siemens.com/syngo/TestAutomation" xml:base="NFR_sTest.TC_NFR_Tests.OpenAndValidateSmartReport/TestCase.xml">
+		<name>syngo.Falcon.NFR_sTest.TC_NFR_Tests.OpenAndValidateSmartReport</name>
+			<apartmentState>MTA</apartmentState>
+			<parameters>
+				<parameter source="TAU.Driver" name="TestActivity Root:">
+					<a href="NFR_sTest.TC_NFR_Tests.OpenAndValidateSmartReport/">NFR_sTest.TC_NFR_Tests.OpenAndValidateSmartReport</a>
+				</parameter>
+			</parameters>
+		</testCall>
+		<fixture>
+			<assemblyName>syngo.Falcon.NFR_sTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=008145f79b9aec14</assemblyName>
+			<fixtureName>syngo.Falcon.NFR_sTest.TC_NFR_Tests</fixtureName>
+		</fixture>
+		<testStep>
+			<name>SetUp</name>
+				<purpose>SetUp</purpose>
+			</testCall>
+				<outcome>Passed</outcome>
+			</result>
+		</testStep>
+		<testStep>
+			<name>OpenAndValidateSmartReport</name>
+			<testStep>
+				<name>WHEN: Select PatientJacket tool in fixed ToolBar</name>
+					<outcome>Passed</outcome>
+				</result>
+			</testStep>
+			<testStep>
+					<outcome>Passed</outcome>
+				</result>
+			</testStep>
+			<testStep>
+					<outcome>Passed</outcome>
+				</result>
+			</testStep>
+			<testStep>
+					<outcome>Failed</outcome>
+   at TAU.Framework.CSL.AbstractStepBase.&lt;DoStep&gt;b__1_0() in <a href="D:/B/a1/348/s/Toolkit/Source/TAU.Framework.CSL/AbstractStepBase.cs">D:\B\a1\348\s\Toolkit\Source\TAU.Framework.CSL\AbstractStepBase.cs</a>:line 35
+				</resultItem>
+					<outcome>None</outcome>
+					<message source="OutputFile">
+					</message>
+				</resultItem>
+					<outcome>Failed</outcome>
+				</result>
+			</testStep>
+				<outcome>Failed</outcome>
+			</result>
+		</testStep>
+		<testStep>
+			<name>TearDown</name>
+				<purpose>TearDown</purpose>
+			</testCall>
+				<outcome>None</outcome>
+				<message source="OutputFile">
+				</message>
+			</resultItem>
+				<outcome>Passed</outcome>
+			</result>
+		</testStep>
+			<outcome>Failed</outcome>
+   at TAU.Framework.CSL.AbstractStepBase.&lt;DoStep&gt;b__1_0() in <a href="D:/B/a1/348/s/Toolkit/Source/TAU.Framework.CSL/AbstractStepBase.cs">D:\B\a1\348\s\Toolkit\Source\TAU.Framework.CSL\AbstractStepBase.cs</a>:line 35
+			<failedChildName>OpenAndValidateSmartReport</failedChildName>
+		</result>
+	</TAU:testCase>
+	<!--Firefox users: Set 'security.fileuri.strict_origin_policy' to 'false' in case of problems with file URIs.-->
+		<name>syngo.Falcon.NFR_sTest.TC_NFR_Tests.ClosePJ</name>
+			<apartmentState>MTA</apartmentState>
+			<parameters>
+				<parameter source="TAU.Driver" name="TestActivity Root:">
+				</parameter>
+			</parameters>
+		</testCall>
+		<fixture>
+			<assemblyName>syngo.Falcon.NFR_sTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=008145f79b9aec14</assemblyName>
+			<fixtureName>syngo.Falcon.NFR_sTest.TC_NFR_Tests</fixtureName>
+		</fixture>
+		<testStep>
+			<name>SetUp</name>
+				<purpose>SetUp</purpose>
+			</testCall>
+				<outcome>Passed</outcome>
+			</result>
+		</testStep>
+		<testStep>
+			<name>ClosePJ</name>
+			<testStep>
+				<name>WHEN: Close the Patient Jacket</name>
+					<outcome>Passed</outcome>
+				</result>
+			</testStep>
+				<outcome>Passed</outcome>
+			</result>
+		</testStep>
+		<testStep>
+			<name>TearDown</name>
+				<purpose>TearDown</purpose>
+			</testCall>
+				<outcome>None</outcome>
+				<message source="OutputFile">
+				</message>
+			</resultItem>
+				<outcome>Passed</outcome>
+			</result>
+		</testStep>
+			<outcome>Passed</outcome>
+		</result>
+	</TAU:testCase>
+	<!--Firefox users: Set 'security.fileuri.strict_origin_policy' to 'false' in case of problems with file URIs.-->
+			<apartmentState>MTA</apartmentState>
+			<parameters>
+				<parameter source="TAU.Driver" name="TestActivity Root:">
+				</parameter>
+			</parameters>
+		</testCall>
+		<fixture>
+			<assemblyName>syngo.Falcon.NFR_sTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=008145f79b9aec14</assemblyName>
+			<fixtureName>syngo.Falcon.NFR_sTest.TC_NFR_Tests</fixtureName>
+		</fixture>
+		<testStep>
+			<name>SetUp</name>
+				<purpose>SetUp</purpose>
+			</testCall>
+				<outcome>Passed</outcome>
+			</result>
+		</testStep>
+		<testStep>
+				<outcome>Passed</outcome>
+			</result>
+		</testStep>
+		<testStep>
+			<name>TearDown</name>
+				<purpose>TearDown</purpose>
+			</testCall>
+				<outcome>None</outcome>
+				<message source="OutputFile">
+				</message>
+			</resultItem>
+				<outcome>Passed</outcome>
+			</result>
+		</testStep>
+			<outcome>Passed</outcome>
+		</result>
+	</TAU:testCase>
+	<!--Firefox users: Set 'security.fileuri.strict_origin_policy' to 'false' in case of problems with file URIs.-->
+	<TAU:testCase xmlns:TAU="http://www.medical.siemens.com/syngo/TestAutomation" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.medical.siemens.com/syngo/TestAutomation https://xmlschema.healthcare.siemens.com:449/TAU/TAU.Driver.TestRecord_v2.0.xsd" xmlns="http://www.medical.siemens.com/syngo/TestAutomation" xml:base="Falcon.NFR_sTest.TC_NFR_Tests.TestFixtureTearDown/TestCase.xml">
+		<name>syngo.Falcon.NFR_sTest.TC_NFR_Tests.TestFixtureTearDown</name>
+			<purpose>TearDown</purpose>
+			<parameters>
+				<parameter source="TAU.Driver" name="TestActivity Root:">
+					<a href="Falcon.NFR_sTest.TC_NFR_Tests.TestFixtureTearDown/">Falcon.NFR_sTest.TC_NFR_Tests.TestFixtureTearDown</a>
+				</parameter>
+			</parameters>
+		</testCall>
+		<fixture>
+			<assemblyName>syngo.Falcon.NFR_sTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=008145f79b9aec14</assemblyName>
+			<fixtureName>syngo.Falcon.NFR_sTest.TC_NFR_Tests</fixtureName>
+		</fixture>
+		<testStep>
+			<name>TestFixtureTearDown</name>
+				<purpose>TearDown</purpose>
+			</testCall>
+				<outcome>Passed</outcome>
+			</result>
+		</testStep>
+			<outcome>Passed</outcome>
+		</result>
+	</TAU:testCase>
+		<TAU:outcome>Failed</TAU:outcome>
+		<TAU:message source="UtfEventListener">One or more child tests had errors</TAU:message>
+	</TAU:resultItem>
+		<TAU:outcome>None</TAU:outcome>
+		<TAU:message source="TAU.Driver.Core.Utf2TestMon+TestEventHandlerLogger">EnvironmentVariable TAU_TESTEVENT_HANDLERS_FORCED_HANDLERS set to ScreenSnapshotHandler.</TAU:message>
+	</TAU:resultItem>
+		<TAU:outcome>None</TAU:outcome>
+		<TAU:message source="TAU.Driver.Core.Utf2TestMon+TestEventHandlerLogger">Deactivating handler with FriendlyName: ScreenSnapshotHandler</TAU:message>
+	</TAU:resultItem>
+		<TAU:outcome>Failed</TAU:outcome>
+	</TAU:result>
+</testRun>
