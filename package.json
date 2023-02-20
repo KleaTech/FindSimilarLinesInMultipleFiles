@@ -1,0 +1,21 @@
+{
+  "name": "findsimilarlinesinmultiplefiles",
+  "version": "1.0.0",
+  "description": "Find similar lines in multiple files",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KleaTech/FindSimilarLinesInMultipleFiles.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KleaTech/FindSimilarLinesInMultipleFiles/issues"
+  },
+  "homepage": "https://github.com/KleaTech/FindSimilarLinesInMultipleFiles#readme",
+  "type": "module"
+}
